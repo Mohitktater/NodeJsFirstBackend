@@ -18,7 +18,7 @@ app.use(express.urlencoded({ extended: true })); /* bodyParser.urlencoded() is d
 
 // simple route
 app.get("/", (req, res) => {
-  res.json({ message: "Welcome to First Node Banckend application." });
+  res.json({ message: "Welcome to First Node Backend application." });
 });
 
 require("./app/routes/routes.js")(app);
