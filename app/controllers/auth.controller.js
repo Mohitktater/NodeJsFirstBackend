@@ -1,25 +1,3 @@
-/*const sql = require("../models/db.js");
-const bcrypt = require('bcrypt');
-const config = require('../config/config.js');
-const jwt = require('jsonwebtoken'); 
-
-// Create and Save a new Tutorial
-exports.tokenverification = async(req, res) => {
-    const token = req.headers.authorization;
-     
-if(token){
-  const decoded = jwt.verify(token, config.jwtSecret);
-    const userId = decoded.userId;
-    //const userId = 'wfewf';
- 
-    res.json({ message: 'Token is valid',
-              'type':'success', 
-     userId });
-}
- 
-};
-
-*/
 const sql = require("../models/db.js");
 const bcrypt = require('bcrypt');
 const config = require('../config/config.js');
